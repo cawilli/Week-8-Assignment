@@ -6,7 +6,9 @@ namespace Week_8_Assignment
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Welcome to the quilt shape tracker. You will select your shape, input, your, color, and ");
+
+
         }
     }
 }
