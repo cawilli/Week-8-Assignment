@@ -6,13 +6,22 @@ namespace Week_8_Assignment
 {
     class Triangle : Shapes
     {
-        public int sideA;
-        public int sideB;
-        public int sideC;
+        public int SideA;
+        public int SideB;
+        public int SideC;
 
         public void TriangleSides()
         {
-            Console.WriteLine($"Printed List: {ShapeType} | {Color}| {sideA} |{sideB} | {sideC}");
+            //Console.WriteLine("Input Side A.");
+            //int SideA = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Input Side B");
+            //int SideB = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Input Side C.");
+            //int SideC = int.Parse(Console.ReadLine());
+
+            Console.WriteLine($"Printed List: {ShapeType} | {Color}| {SideA} |{SideB} | {SideC}");
         }
     }
 }
