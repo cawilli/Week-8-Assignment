@@ -15,8 +15,8 @@ namespace Week_8_Assignment
             Console.WriteLine("Please input shape: Triangle, Square, Rectangle.");
             collection.ShapeType = Console.ReadLine();
 
-            Console.WriteLine("Input shape dimension.");
-            collection.ShapeArea = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Input shape dimension.");
+            //collection.ShapeArea = int.Parse(Console.ReadLine());
 
             collection.QuiltCollection();
          

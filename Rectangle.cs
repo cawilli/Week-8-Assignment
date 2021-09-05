@@ -11,6 +11,11 @@ namespace Week_8_Assignment
 
         public void RectangleDimension()
         {
+            Console.WriteLine("Input Length.");
+            int Length = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Input Width");
+            int Width = int.Parse(Console.ReadLine());
             Console.WriteLine($"Printed List: {ShapeType} | {Color}| {Length} |{Width}");
         }
     }
