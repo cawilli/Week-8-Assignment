@@ -6,10 +6,12 @@ namespace Week_8_Assignment
 {
     public class Shapes
     {
-        public string input()
+        public string Color;
+        public string ShapeType;
+        public int ShapeArea;
+        public void QuiltCollection()
         {
-            Console.WriteLine("Type option: Square, Rectangle, Triangle.");
-            return (Console.ReadLine());
+            Console.WriteLine($"Printed List: {ShapeType} | {Color} | {ShapeArea}cm.");
         }
     }
 }
