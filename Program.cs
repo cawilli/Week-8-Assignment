@@ -15,6 +15,12 @@ namespace Week_8_Assignment
             Console.WriteLine("Please input shape: Triangle, Square, Rectangle.");
             collection.ShapeType = Console.ReadLine();
 
+            if (collection.ShapeType == "Triangle")
+                Console.WriteLine($"{Triangle}");
+
+            else if (collection.ShapeType ==)
+                Console.WriteLine($"{Rectangle}");
+            else           
             //Console.WriteLine("Input shape dimension.");
             //collection.ShapeArea = int.Parse(Console.ReadLine());
 
